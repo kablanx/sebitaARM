@@ -20,6 +20,6 @@ steps:
     location: 'West Europe'
     templateLocation: 'URL of the file'
     csmFileLink: 'https://raw.githubusercontent.com/kablanx/sebitaARM/main/CreateWebApp/azuredeploy.json'
-    overrideParameters: '-projectName sebitaARM'
+    overrideParameters: '-projectName sebitaarm'
     deploymentMode: 'Incremental'
     deploymentName: 'DeployPipelineTemplate'
