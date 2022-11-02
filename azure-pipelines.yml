@@ -10,8 +10,8 @@ resources:
   repositories:
     - repository: templates
       type: github
-      name: nahuic72/templates
-      endpoint: github.com_nahuic72
+      name: kablanx/templates
+      endpoint: github.com_kablanx
       
 extends:
   template: start.yml@templates
