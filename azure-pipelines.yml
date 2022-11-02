@@ -8,7 +8,7 @@ trigger:
 
 resources:
   repositories:
-    - repository: templates
+    - repository: sebitaARM
       type: github
       name: kablanx/templates
       endpoint: github.com_kablanx
