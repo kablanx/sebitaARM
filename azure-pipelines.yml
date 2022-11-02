@@ -19,19 +19,7 @@ extends:
     buildSteps:
       - bash: echo Test #Passes
         displayName: succeed
-      - task: AzureResourceManagerTemplateDeployment@3
-        inputs:
-          deploymentScope: 'Resource Group'
-          azureResourceManagerConnection: 'sebitaconnection'
-          subscriptionId: '0137cfe6-7d4b-4788-93b3-d4e506caba8b'
-          action: 'Create Or Update Resource Group'
-          resourceGroupName: 'sebitaARM'
-          location: 'West Europe'
-          templateLocation: 'URL of the file'
-          csmFileLink: 'https://raw.githubusercontent.com/kablanx/sebitaARM/main/CreateWebApp/azuredeploy.json'
-          overrideParameters: '-projectName sebitaarm'
-          deploymentMode: 'Incremental'
-          deploymentName: 'DeployPipelineTemplate'
+
 pool:
   vmImage: ubuntu-latest
 
