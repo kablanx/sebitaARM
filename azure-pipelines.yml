@@ -14,7 +14,7 @@ steps:
   inputs:
     deploymentScope: 'Resource Group'
     azureResourceManagerConnection: 'sebitaARM'
-    subscriptionId: '0137cfe6-7d4b-4788-93b3-d4e506caba8b'
+    subscriptionId: 'sebitaconnection'
     action: 'Create Or Update Resource Group'
     resourceGroupName: 'sebitaARM'
     location: 'West Europe'
