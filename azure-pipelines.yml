@@ -10,7 +10,7 @@ resources:
   repositories:
     - repository: templates
       type: github
-      name: kablanx/templates
+      name: kablanx/sebitaARM
       endpoint: github.com_kablanx
       
 extends:
