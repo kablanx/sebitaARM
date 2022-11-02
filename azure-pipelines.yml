@@ -10,8 +10,8 @@ resources:
   repositories:
     - repository: templates
       type: github
-      name: kablanx/sebitaARM
-      endpoint: github.com_kablanx
+      name: nahuic72/templates
+      endpoint: github.com_nahuic72
       
 extends:
   template: start.yml@templates
